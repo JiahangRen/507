@@ -44,6 +44,7 @@ class DB:
         c = con.cursor()
 
         # set primary key to user_id
+        # '35936474', 'Kevin Durant', 'KDTrey5' ""
         columns = "user_id text PRIMARY KEY, name text, " \
                   "username text, description text, url text, location text"
         print(columns)
@@ -84,7 +85,12 @@ class DB:
         c.execute(f'SELECT * FROM {table_name}')
         info = c.fetchall()
 
-        print(info)
+        # print(info)
+
+        print([i[0] for i in info])
+        print([i[1] for i in info])
+        print([i[2] for i in info])
+
         # c.close()
         return info
 
@@ -100,13 +106,15 @@ class DB:
 if __name__ == '__main__':
     d = DB()
 
-    x1 = read_csv("user_info.csv")
-    d.create_user_info_table(x1, "user_info")
-    # d.show_table("user_info")
+    # x1 = read_csv("user_info.csv")
+    # d.create_user_info_table(x1, "user_info")
 
-    x2 = read_csv("user_with_follwing.csv")
-    d.create_following_table(x2, "user_with_follwing")
-    # d.show_table("user_with_follwing")
+    d.show_table("user_info") ### 111
+
+    # x2 = read_csv("user_with_follwing.csv")
+    # d.create_following_table(x2, "user_with_follwing")
+
+    # d.show_table("user_with_follwing") ## 2222
 
 
     # x3 = read_csv("user_tweets.csv")
