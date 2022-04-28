@@ -46,7 +46,10 @@ pip install streamlit
 
 
 E. run this app
-  $streamlit run app.py
+* Use command prompt (win), terminal (mac) to switch to the directory where the files is located:
+  $ cd 'your file folder path'
+Then
+  $ streamlit run app.py
 
   # or just run Run_app.py
   $ streamlit run app.py
