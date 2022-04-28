@@ -1,10 +1,9 @@
 ******
 
 * Required Python packages are  pandas, requests, streamlit
-
-pip install requests
-pip install pandas
-pip install streamlit
+  - pip install requests
+  - pip install pandas
+  - pip install streamlit
 
 
 This project is divided into 3 parts
