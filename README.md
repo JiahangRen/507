@@ -14,6 +14,7 @@ This data is saved as a csv file.
 
 
  D. Data Structure, build a tree like this
+```
 
                                 Root
                       /          |             \
@@ -25,6 +26,7 @@ This data is saved as a csv file.
       /         |         \
   following_1 following_2,  following_3,  ...  following_100
 
+```
 
 
 
