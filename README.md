@@ -1,19 +1,28 @@
 ******
+
+* Required Python packages are  pandas, requests, streamlit
+
+pip install requests
+pip install pandas
+pip install streamlit
+
+
 This project is divided into 3 parts
- A. Use twitter api to get basic information about NBA stars (12 of them) and who they follow.
+
+ * A. Use twitter api to get basic information about NBA stars (12 of them) and who they follow.
 The twitter data of these stars is used to study if any of the people they follow are also NBA stars, i.e. if there are stars who follow each other.
 This data is saved as a csv file.
 
- B. Based on the data obtained in part A, create a database, sqlite3 and create 2 tables to save the data.
+ * B. Based on the data obtained in part A, create a database, sqlite3 and create 2 tables to save the data.
 
- C. Use streamlit to create a short web app.
+ * C. Use streamlit to create a short web app.
 - Let the user choose whether to display all the data of the players or not.
 - Let the user select a particular player and query the detailed results.
 - Show some statistics.
 
 
 
- D. Data Structure, build a tree like this
+ * D. Data Structure, build a tree like this
 ```
 
                                 Root
@@ -30,8 +39,7 @@ This data is saved as a csv file.
 
 
 
-D. required Python packages are  pandas, requests, streamlit
-
+* Required Python packages are  pandas, requests, streamlit
 pip install requests
 pip install pandas
 pip install streamlit
