@@ -23,7 +23,10 @@ This data is saved as a csv file.
          /      |      \
         /       |        \
       /         |         \
-following_1 following_2,  following_3,  ...  following_100
+  following_1 following_2,  following_3,  ...  following_100
+
+
+
 
 D. required Python packages are  pandas, requests, streamlit
 
@@ -34,10 +37,9 @@ pip install streamlit
 
 
 E. run this app
+  $streamlit run app.py
 
-$streamlit run app.py
+  # or just run Run_app.py
+  $ streamlit run app.py
 
-# or just run Run_app.py
-$ streamlit run app.py
-
-# go to: http://localhost:8501
+  # go to: http://localhost:8501
