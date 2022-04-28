@@ -16,9 +16,9 @@ This data is saved as a csv file.
  * B. Based on the data obtained in part A, create a database, sqlite3 and create 2 tables to save the data.
 
  * C. Use streamlit to create a short web app.
-  + Let the user choose whether to display all the data of the players or not.
-  +  Let the user select a particular player and query the detailed results.
-  +  Show some statistics.
+   1. Let the user choose whether to display all the data of the players or not.
+   2. Let the user select a particular player and query the detailed results.
+   3. Show some statistics.
 
 
 
