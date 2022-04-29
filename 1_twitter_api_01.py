@@ -55,7 +55,7 @@ files.download("user_info.csv")
 
 """# Get followers. Maybe later"""
 
-# doc max results 100 需要翻页。
+# doc max results 100 need turn pages.
 # https://developer.twitter.com/en/docs/twitter-api/users/follows/api-reference/get-users-id-followers
 
 # def get_followers(user_id):

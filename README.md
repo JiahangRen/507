@@ -1,8 +1,9 @@
 ******
 
-* Required Python packages are  pandas, requests, streamlit
+* Required Python packages are  pandas, requests, google-colab, streamlit
   - pip install requests
   - pip install pandas
+  - pip install google-colab
   - pip install streamlit
 
 
@@ -38,20 +39,22 @@ This data is saved as a csv file.
 
 
 
-* Required Python packages are  pandas, requests, streamlit
-pip install requests
-pip install pandas
-pip install streamlit
+* Required Python packages are  pandas, requests, google-colab, streamlit
+- pip install requests
+- pip install pandas
+- pip install google-colab
+- pip install streamlit
 
 
 
 E. run this app
 * Use command prompt (win), terminal (mac) to switch to the directory where the files is located:
-  $ cd 'your file folder path'
+  - $ cd 'your file folder path'
 Then
-  $ streamlit run app.py
+  - $ streamlit run app.py
 
   # or just run Run_app.py
+
   $ streamlit run app.py
 
   # go to: http://localhost:8501
